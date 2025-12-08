@@ -1,0 +1,6 @@
+# Ignorar VSCode
+.vscode/
+
+# Ignorar todas as pastas de output em qualquer nível
+**/output/
+**/outputs/
