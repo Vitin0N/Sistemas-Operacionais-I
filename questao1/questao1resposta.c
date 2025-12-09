@@ -2,9 +2,12 @@
     Programa criado para a resolução da atividade de 
     Sistema Operacional I
 
+    Nome do arquivo: questao1resposta.c
+
     Equipe:
         (Nome | Matrícula)
         - Victor Gabriel da Silva Menezes | 20240008323
+        - Luiz Henrique Santos da Graça   | 20240008261
     
     Este programa foi feito para mostrar a hierarquia de processos usando chamadas fork().
     Criando nesse exmplo Processo Pai -> Processos Filhos -> Processos Neto.
