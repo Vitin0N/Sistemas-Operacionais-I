@@ -2,17 +2,21 @@
     Programa criado para a resolução da atividade de 
     Sistema Operacional I
 
-    Nome do arquivo: processo.c
+    Nome do arquivo: q2_processos.c
 
     Equipe:
         (Nome | Matrícula)
         - Victor Gabriel da Silva Menezes | 20240008323
         - Luiz Henrique Santos da Graça   | 20240008261
     
-    Este programa foi feito para mostrar como funcionaria uma execução
-    para calcular media, mediana e desvio padrão de um array de 10.000
-    elementos. Mostrando em quanto tempo essa execução, usando pipes, demora em relação 
-    a Threads e um programa sequencial.
+        Objetivo:
+            Este programa utiliza a chamada de sistema fork() 
+            para dividir a tarefa criando 3 cópias independentes 
+            do programa (processos filhos). Como a memória é separada, 
+            ele utiliza pipes para comunicar os resultados de volta ao 
+            processo pai. O objetivo é medir o 'custo' (overhead) de 
+            criar processos inteiros e comparar o desempenho com a versão 
+            de threads e a sequencial.
 */
 
 #include <stdio.h>

@@ -2,17 +2,20 @@
     Programa criado para a resolução da atividade de 
     Sistema Operacional I
 
-    Nome do arquivo: multi_Threads.c
+    Nome do arquivo: q2_Threads.c
 
     Equipe:
         (Nome | Matrícula)
         - Victor Gabriel da Silva Menezes | 20240008323
         - Luiz Henrique Santos da Graça   | 20240008261
     
-    Este programa foi feito para mostrar como funcionaria uma execução
-    para calcular media, mediana e desvio padrão de um array de 10.000
-    elementos. Mostrando em quanto tempo essa execução, Threads,
-    demora em relação a um programa sequencial e Processos.
+        Objetivo:
+            Este programa utiliza a biblioteca pthread para dividir 
+            a tarefa em 3 fluxos de execução (threads) que rodam 
+            simultaneamente dentro do mesmo processo, compartilhando 
+            a mesma memória. O objetivo é verificar o tempo de criação 
+            e execução das threads e comparar se essa abordagem é mais 
+            eficiente que a versão sequencial.
 */
 
 #include <stdio.h>

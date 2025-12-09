@@ -2,17 +2,20 @@
     Programa criado para a resolução da atividade de 
     Sistema Operacional I
 
-    Nome do arquivo: threadUnica.c
+    Nome do arquivo: q2_sequencial.c
 
     Equipe:
         (Nome | Matrícula)
         - Victor Gabriel da Silva Menezes | 20240008323
         - Luiz Henrique Santos da Graça   | 20240008261
-    
-    Este programa foi feito para mostrar como funcionaria uma execução
-    para calcular media, mediana e desvio padrão de um array de 10.000
-    elementos. Mostrando em quanto tempo essa execução, de um programa
-    sequencial, demora em relação a Threads e Processos.
+
+    Objetivo:    
+        Este programa realiza o cálculo de média, mediana e desvio 
+        padrão de um array de 10.000 elementos de forma linear 
+        (um cálculo após o outro). Ele representa a execução padrão 
+        (Single Thread/Processo Único) e serve como base de comparação 
+        para medir se o uso de paralelismo traz ganho de velocidade ou 
+        se apenas adiciona complexidade.
 */
 
 #include <stdio.h>
